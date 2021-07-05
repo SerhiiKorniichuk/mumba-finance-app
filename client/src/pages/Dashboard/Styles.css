@@ -1,0 +1,655 @@
+.Dashboard--Upload-avatar {
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  right: 4px;
+  position: absolute;
+  text-align: center;
+  line-height: 30px;
+  top: 4px;
+  cursor: pointer;
+}
+.Dashboard--Avatar {
+  width: 150px;
+  font-size: 60px;
+  position: relative;
+}
+.Dashboard--Avatar-Placeholder > span > span {
+  display: block;
+}
+
+.BalanceTitle {
+  padding-left: 15px !important;
+}
+
+.MuiButton-outlined {
+  padding: 10px 20px !important;
+}
+
+.MuiButton-label {
+	line-height: 100%;
+    padding: 4px 0 3px;
+}
+
+.paymentOptBtn {
+	padding: 0 6px;
+}
+
+.paymentOptBtn .MuiButton-label {
+	font-size: 12px;
+}
+
+button {
+  outline: none !important;
+}
+
+.walletIcon > path {
+  fill: grey;
+}
+
+.currency-btn {
+  border-radius: 1000px;
+  overflow: hidden;
+}
+
+.sidebar__card {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.sidebarButton {
+  margin: 0 0 15px;
+  min-width: 130px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.sidebarButton:last-child {
+  margin: 0;
+}
+
+.sidebarButton svg {
+  width: 30px;
+  height: 30px;
+}
+
+.badgeColor {
+  padding: 15px 20px 15px 20px !important;
+}
+
+.profileBlock {
+  display: "";
+}
+
+.profitTabContent {
+  text-align: center;
+  width: 60%;
+  border: #80808036 solid 0.1px !important;
+  margin-left: 15px !important;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.balanceTabPanel {
+  padding-right: 10%;
+}
+
+.balanceTabText,
+.profitTabText,
+.transactionsTabText {
+  display: inline;
+}
+
+.balance_mt__card_block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.react_tabs__row {
+  border-top: #80808036 solid 1px;
+  border-bottom: #80808036 solid 1px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.react-tabs__tab-list {
+  border: none !important;
+  margin-bottom: 0 !important;
+}
+
+.react-tabs__tab {
+  border: none !important;
+  margin: 0 30px 0 30px !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.react-tabs__tab--selected {
+  background: transparent !important;
+  color: #825ee4 !important;
+  border: none !important;
+  border-bottom: #825ee4 solid 0.1px !important;
+}
+
+.react-tabs__tab--selected svg path {
+  fill: #825ee4;
+}
+
+.balance_mt__card {
+  background-color: #f8f8f8;
+  border: #825ee4 solid 2px;
+  border-radius: 5px;
+  position: relative;
+  width: auto;
+}
+
+.balance_mt__card:hover .balance_mt__card_icon {
+  transform: rotate(-20);
+}
+
+.balance_mt_card__row {
+  align-items: center !important;
+}
+
+.balance_mt__card_title {
+  margin-left: 0px;
+  font-size: large;
+  white-space: nowrap;
+  color: black;
+  font-weight: 200 !important;
+}
+
+.balance_mt__card_price {
+  margin-top: 10px;
+  margin-left: 0px;
+  font-weight: 600;
+  color: black !important;
+  white-space: nowrap;
+}
+
+.balance_mt__card_button {
+  background-image: linear-gradient(to right, #6071e4, #805fe4);
+  /* background: #5e72e4 !important; */
+  text-transform: capitalize !important;
+  outline: none !important;
+  padding: 15px !important;
+  color: white !important;
+  border-radius: 10px !important;
+  font-size: larger !important;
+  font-weight: 700 !important;
+}
+
+.balance_other__card_row {
+  align-items: center !important;
+  margin: 0 !important;
+}
+
+.balance_other__card {
+  background-color: #f8f8f8;
+  border: #e2e2e2 solid 0.1px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.balance_other__card_title {
+  margin-left: 28px;
+  font-size: large;
+  color: black;
+  font-weight: 200 !important;
+}
+
+.balance_other__card_price {
+  margin-top: 5px;
+  margin-left: 28px;
+  color: #5e72e4 !important;
+  font-size: large;
+  font-weight: 600;
+}
+
+.balamce_other__card_price:hover {
+  cursor: pointer !important;
+}
+
+.cardIconMumba,
+.cardIconBTC,
+.cardIconETH,
+.cardIconUSD,
+.cardIconIDR {
+  transition: all 0.5s ease-in-out;
+}
+
+.mbmCard:hover .cardIconMumba,
+.cardBTC:hover .cardIconBTC,
+.cardETH:hover .cardIconETH,
+.cardUSD:hover .cardIconUSD,
+.cardIDR:hover .cardIconIDR {
+  transform: rotate(-20deg);
+}
+
+.mbmCard:hover,
+.cardBTC:hover,
+.cardETH:hover,
+.cardUSD:hover,
+.cardIDR:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.123);
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+
+th,
+td {
+  font-family: "Open Sans";
+}
+
+thead {
+  background-color: #ededed;
+}
+
+.TitleStyle {
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  padding-left: 30px !important;
+  color: black !important;
+}
+
+.theadBorderLeft {
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+
+.theadBorderRight {
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+
+.startCol {
+  border-left: solid #ededed !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+
+.filledCol {
+  background-color: #e6e6e673;
+}
+
+.endCol {
+  border-right: solid #ededed !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+
+.txnFont {
+  font-weight: 300 !important;
+  font-size: 12px !important;
+}
+
+td {
+  border-top: solid #ededed;
+  border-bottom: solid #ededed;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+}
+
+th {
+  padding: 15px;
+  font-weight: 400 !important;
+}
+
+td {
+  color: black;
+  font-weight: 700;
+  font-size: large;
+  vertical-align: top;
+  padding: 15px;
+}
+
+.transactionPanel {
+  text-align: unset !important;
+}
+
+.idDate {
+  display: none;
+}
+
+.dateField {
+  display: table-cell;
+}
+
+.withdrawalCloseIcon {
+  color: white !important;
+}
+
+.modalPayment .paymentHeader {
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+.modalPayment .paymentHeader {
+  position: absolute;
+  z-index: 999;
+  right: 20px;
+  top: 20px;
+}
+
+.modalPayment .paymentHeader button span {
+  color: white !important;
+}
+
+.modalPayment {
+  position: absolute !important;
+  margin: 0 !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.modalPayment .modal-content {
+  width: 500px;
+}
+
+.paymentOptBtn {
+  width: 100%;
+}
+
+.paymentOptBtn .MuiButton-label {
+	/* font-size: 12px; */
+}
+
+.smallCaseBtn {
+  text-transform: inherit !important;
+  width: 100%;
+  /* padding: 7px !important; */
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid #FFFFFF;
+}
+
+.smallCaseBtn span {
+  /* padding: 3px !important; */
+  font-size: x-small;
+}
+
+.modalPayment .paymentBody {
+  background-image: url("../../assets/img/icons/deposit-bg.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center !important;
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
+}
+
+.paymentCloseIcon {
+  margin-top: 10px;
+  margin-right: 5px;
+  color: white !important;
+}
+
+.purchaseModalInputBox{
+  max-width: 75vw;
+}
+
+.purchaseModalInputBox div p,
+.purchaseModalInputBox div div p,
+.purchaseModalInputBox div div input {
+  color: white !important;
+}
+
+.purchase-modal-input {
+  padding: 14px 16px;
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 1px solid #FFFFFF;
+  background: transparent;
+}
+
+.purchase-modal-input::placeholder {
+  color: #FFFFFF;
+}
+
+.purchase-modal-input.tokenQtyError {
+  border: 1px solid red;
+}
+
+.modalPayment .paymentBody {
+  border-radius: 5px !important;
+  border-color: transparent !important;
+}
+
+.purchaseModalInputBox div .showConversion {
+  color: white;
+  padding-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem !important;
+}
+
+.purchaseModalInputBox div .howToPay {
+  padding-top: 14px;
+}
+
+.purchaseModalInputBox div .howToPayButtons {
+  display: flex;
+  margin: 0 -6px;
+}
+
+.purchaseModalInputBox div .howToPayButtons button {
+  color: white;
+  /* margin: 5px; */
+  border-color: white;
+  padding: 12px 10px !important;
+}
+
+.final-amount {
+  font-size: 28px;
+}
+
+.MakeItActive {
+  border-color: transparent !important;
+  background-color: #2dce8f !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.homePurchaseBtn {
+  width: 100%;
+}
+
+.purchaseModalInputBox div h2 {
+  color: white;
+  padding-top: 2rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.purchaseModalInputBox div .buyButton {
+  padding: 15px 15px;
+  background-image: linear-gradient(to right, #2dce8f, #2dcec3);
+  border-radius: 7px;
+  color: white;
+  width: 25vh !important;
+  align-self: center;
+}
+
+#buyButton {
+  margin: 0 auto;
+}
+
+.purchaseModalInputBox div div fieldset {
+  border-color: white !important;
+}
+
+.modalWithdrawalCard {
+  background-image: url("../../assets/img/icons/lockup-bg.svg") !important;
+  background-position: center !important;
+  background-size: cover;
+  padding: 5%;
+}
+
+.modalWithdrawalCard h4,
+.modalWithdrawalCard p {
+  color: white !important;
+}
+
+.mobileTabs div ul li svg {
+  margin: 0 10px 0 0;
+  width: 30px;
+}
+
+@media screen and (max-width: 991px) {
+
+  .mobileLeftAlignmentFix {
+    margin-left: 0 !important;
+  }
+  .balance_other__card_title,
+  .balance_mt__card_title,
+  .balance_other__card_price {
+    font-size: large;
+  }
+
+  h3,
+  .h3 {
+    font-size: x-large;
+  }
+
+  .MuiButton-root {
+    font-weight: 300 !important;
+  }
+
+  .navbar-transparent {
+    box-shadow: none !important;
+  }
+  .section-lg {
+    padding-top: 5rem;
+  }
+  .react-tabs__tab--selected {
+    border-bottom: #825ee4 solid 2px !important;
+  }
+
+  .mobileTabs {
+    padding: 0 !important;
+  }
+
+  .mobileTabs div ul {
+    padding-left: 40px;
+  }
+
+  .mobileTabs div ul li svg {
+    margin: 0;
+    width: 28px;
+  }
+
+  .TitleStyle {
+    padding-left: 0px !important;
+    text-align: left !important;
+  }
+
+  .balanceTabPanel {
+    padding-top: 0 !important;
+  }
+
+  .balanceTabPanel .balance_other__card_row {
+    padding-right: 0px !important;
+  }
+
+  .profileBlock {
+    display: none;
+  }
+
+  .profitTabContent {
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  .BalanceTitle {
+    padding-left: 15px !important;
+  }
+
+  .balanceTabPanel {
+    padding: 0;
+  }
+
+  .balanceTabText,
+  .profitTabText,
+  .transactionsTabText {
+    display: none;
+  }
+
+  .transactionPanel {
+    text-align: -webkit-center !important;
+  }
+
+  .idDate {
+    display: inline;
+  }
+
+  .dateField {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .modal-dialog.modalPayment {
+    width: 100%;
+  }
+
+  .modalPayment .modal-content {
+    max-width: 500px;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .howToPayButtons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .howToPayButtons .paymentOptBtn {
+    margin: 0 0 10px;
+    flex: auto;
+    min-width: 50%;
+  }
+
+  .howToPayButtons .paymentOptBtn:nth-child(3), .howToPayButtons .paymentOptBtn:nth-child(4) {
+    margin: 0;
+  }
+
+  .balance_mt__card_block {
+    display: block;
+  }
+
+  .paymentOptBtn {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .react-tabs__tab {
+    margin: 0 15px !important;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .modalPayment .paymentBody {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+
+  .purchaseModalInputBox {
+    max-width: none;
+  }
+}

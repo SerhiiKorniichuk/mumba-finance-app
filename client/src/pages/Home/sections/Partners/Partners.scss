@@ -1,0 +1,16 @@
+.partners-section {
+  margin-top: -1px;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #6071E4 0%, #805FE4 100%);
+
+  &__body {
+    padding: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .circle-preview-box {
+      padding: 30px 50px;
+      flex-basis: 50%;
+    }
+  }
+}

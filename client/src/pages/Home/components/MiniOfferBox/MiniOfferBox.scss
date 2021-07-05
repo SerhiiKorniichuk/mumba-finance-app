@@ -1,0 +1,33 @@
+.mini-offer-box {
+  position: relative;
+  padding: 36px 45px 29px;
+  max-width: 240px;
+  width: 100%;
+  color: #FFFFFF;
+  border-radius: 7px;
+  border: 1px solid #FFFFFF;
+  background: linear-gradient(90deg, #6071E4 0%, #805FE4 100%);
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__title {
+    margin: 0 0 7px;
+    color: inherit;
+    font-size: 18px;
+  }
+
+  &__main-text {
+    font-size: 42px;
+    font-weight: 700;
+  }
+
+  &__description {
+    margin: 2px 0 0;
+    font-size: 14px;
+  }
+}

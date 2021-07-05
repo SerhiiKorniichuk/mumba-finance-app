@@ -1,0 +1,52 @@
+.about-section {
+  color: #000000;
+
+  &__body {
+    display: flex;
+    align-items: center;
+  }
+
+  .picture-with-figure {
+    flex-basis: 38%;
+  }
+
+  &__info {
+    margin: 0 0 0 4%;
+    padding: 0 45px 0 0;
+    flex-basis: calc(62% - 4%);
+  }
+
+  &__description {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 220%;
+  }
+}
+
+.picture-with-figure {
+  position: relative;
+  padding: 25px 0 25px 25px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32%;
+    height: 100%;
+    border-radius: 7px;
+    background: linear-gradient(90deg, #6071E4 0%, #805FE4 100%);
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+  }
+
+  &__inner {
+    position: relative;
+
+    & img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}

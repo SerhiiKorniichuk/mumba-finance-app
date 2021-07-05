@@ -1,0 +1,9 @@
+{
+    "require": {
+        "youshido/graphql": "^1.5",
+        "youshido/graphql-extensions": "^0.0.6",
+        "catfan/medoo": "^1.6",
+        "twilio/sdk": "^5.34",
+        "phpmailer/phpmailer": "^6.0"
+    }
+}

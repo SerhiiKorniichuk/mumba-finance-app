@@ -1,0 +1,40 @@
+.faq-block {
+  &__title {
+    margin: 0 0 20px;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  &__item {
+      margin: 0 0 20px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .faq-block {
+    &__title {
+      font-size: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .faq-block {
+    &__title {
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .faq-block {
+    &__title {
+      font-size: 16px;
+    }
+
+    &__item {
+      margin: 0 0 10px;
+    }
+  }
+}

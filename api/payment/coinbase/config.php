@@ -1,0 +1,4 @@
+<?php
+
+$API_KEY = '86d0cda7-ffcc-46c2-a6e9-f6877342be34';
+$WEBHOOK_SHARED_SECRET = '1312820f-df72-49c8-b945-aefb3ca32ca5';

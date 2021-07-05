@@ -1,0 +1,56 @@
+.main-home-section {
+  position: relative;
+  padding: 13.7rem 0 8.5rem;
+  color: #000000;
+
+  &__background {
+    position: absolute;
+    bottom: 73px;
+    left: 49%;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 68%;
+      background-image: linear-gradient(90deg, #6071E4 0%, #805FE4 100%);
+    }
+
+    & img {
+      position: relative;
+      display: block;
+    }
+  }
+
+  &__info {
+    position: relative;
+    padding: 0 20px 0 0;
+    max-width: 48%;
+  }
+
+  &__title {
+    margin: 0 0 20px;
+    color: #52607E;
+    font-size: 64px;
+    font-weight: 700;
+  }
+
+  &__description {
+    margin: 0;
+    color: inherit;
+    font-size: 18px;
+    line-height: 195%;
+  }
+
+  &__btn-box {
+    margin: 75px 0 0;
+    display: flex;
+    color: #7C60E4;
+
+    .t1-btn:first-child {
+      margin: 0 20px 0 0;
+    }
+  }
+}

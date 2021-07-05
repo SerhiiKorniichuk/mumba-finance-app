@@ -1,0 +1,28 @@
+.how-it-work-section {
+  color: #000000;
+
+  &__body {
+    display: flex;
+    flex-wrap: wrap;
+
+    .benefits-box {
+      margin: 25px 0;
+      flex-basis: 50%;
+      align-items: center;
+
+      &:nth-child(odd) {
+        padding: 0 4% 0 0;
+      }
+
+      &:nth-child(even) {
+        padding: 0 0 0 4%;
+      }
+    }
+
+    .benefits-info {
+      &__description {
+        font-size: 18px;
+      }
+    }
+  }
+}

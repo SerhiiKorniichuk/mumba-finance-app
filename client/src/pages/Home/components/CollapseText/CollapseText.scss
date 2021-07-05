@@ -1,0 +1,22 @@
+.collapse-btn {
+  padding: 0;
+  color: #1575CD;
+  font-size: 18px;
+  font-weight: 300;
+  border: 0;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .collapse-btn {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .collapse-btn {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,13 @@
+.Admin--TimeZone > input {
+    border: 0 !important;
+}
+.Admin--TimeZone {
+    padding: 7px !important;
+}
+.Admin--TimeZone > ul {
+    background: #fff;
+    z-index: 1;
+}
+.Admin--TimeZone > ul > li > button {
+    padding: 10px;
+}

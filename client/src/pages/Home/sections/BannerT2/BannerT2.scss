@@ -1,0 +1,69 @@
+.banner-t2-section {
+  padding-bottom: 0;
+  color: #FFFFFF;
+
+  &__body {
+    position: relative;
+    padding: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, #6071E4 0%, #805FE4 100%);
+    border-radius: 7px;
+    overflow: hidden;
+  }
+
+  &__bubbles {
+    position: absolute;
+    pointer-events: none;
+    user-select: none;
+
+    & img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &--xl {
+      top: -5%;
+      left: -6.5%;
+      width: 33%;
+    }
+  }
+
+  &__btn-box {
+    z-index: 1;
+    position: relative;
+    margin: 0 -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .t1-btn {
+      width: 273px;
+    }
+  }
+
+  &__btn-subtitle {
+    color: inherit;
+    margin: 20px 0 0;
+
+    &:hover {
+      color: #FFFFFF;
+    }
+  }
+
+  &__title {
+    margin: 0 0 30px;
+    color: inherit;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  &__offers-boxes {
+    position: relative;
+    display: flex;
+  }
+}

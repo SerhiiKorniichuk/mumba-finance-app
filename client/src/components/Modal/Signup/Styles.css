@@ -1,0 +1,17 @@
+.react-tel-input  .form-control {
+    width: 100% !important;
+    height: 45px !important;
+    border: none !important;
+}
+
+.react-tel-input .flag-dropdown {
+    border: none !important;
+    background: #fff !important;
+    border-right: 1px solid #efefef !important;
+}
+.react-select-container {
+    width: 100%;
+}
+.react-select-container > div {
+    border: 0;
+}
